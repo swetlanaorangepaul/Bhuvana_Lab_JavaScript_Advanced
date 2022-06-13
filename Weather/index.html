@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Information</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Weather Information</h1>
+    <div id="container">
+        <input type="text" class="city-input" id="city-input" autocomplete="on" name="city" placeholder="Enter the city" />
+        <div id="weather-info">
+            <div id="cityname"><span id="country"></span></div>
+        </div>
+        <main>
+            <section class="location">
+                <div class="city">New Delhi, India</div>
+                <div class="date">Sunday 6th June 2022</div>
+            </section>
+            <div class="current">
+                <div class="temp">33°c</div>
+                <div class="feels-like">Feels Like 40°c</div>
+                <div class="forecaste">Clouds</div>
+                <div class="min-max">
+                    <div class="label" id="label1">Min</div>
+                    <div class="value" id="min">33°c</div>
+                </div>
+                <div class="min-max">
+                    <div class="label" id="label2">Max</div>
+                    <div class="value" id="max">37°c</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

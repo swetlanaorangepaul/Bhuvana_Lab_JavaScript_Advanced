@@ -1,0 +1,101 @@
+body{
+    background-image:url('pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    color: rgb(100, 149, 237);
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+    font-family: Brush Script MT;
+    margin-top: 0%;
+}
+#container{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+#city-input{
+    width: 50%;
+    line-height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10%;
+    background-color: rgb(100, 149, 237);
+    padding-left: 10px;
+    font-size: x-large;
+}
+#city-input::placeholder{
+    font-size: x-large;
+    padding-left: 10px;
+    font-style: italic;
+    color: whitesmoke;
+}
+#city-input:focus{
+    background-color: lightblue;
+    border-radius: 10%;
+}
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0%;
+  }
+  
+  .location .city {
+    color: rgb(43, 43, 192);
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .location .date {
+    color: rgb(43, 43, 192);
+    font-size: 16px;
+  }
+  
+  .current .temp {
+    color: rgb(43, 43, 192);
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 10px rgba(100, 149, 237, 0.6);
+    margin-bottom: 0%;
+  }
+  
+  .current .temp span {
+    font-weight: 500;
+  }
+  
+  .current .forecaste {
+    color: rgb(43, 43, 192);
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(100, 149, 237, 0.795);
+  }
+  
+  .current .min-max {
+    display: inline-block;
+    margin: 10px;
+    color: rgb(43, 43, 192);
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(100, 149, 237, 0.4);
+}
+.current .feels-like{
+    font-weight: bolder;
+    background-color:rgb(100, 149, 237);
+    color: whitesmoke;
+}
+.label{
+    font-size: medium;
+    color: white;
+}
